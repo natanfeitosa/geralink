@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Gera Link</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+    <header>
+      <a href=""><p>Gera Link</p></a>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-11 col-sm-10 col-lg-6 col-md-7 main">
+          <div class="max">
+            <label class="max" for="in_tel">Número do celular
+              <input type="tel" id="in_tel" class="form-control form-control-line edit" placeholder="Ex.: (00) 0 0000-0000">
+            </label>
+          </div>
+          <div class="max">
+            <label class="max" for="mes">Mensagem (opcional)
+            <textarea class="form-control form-control-line edit" id="mes" rows="2" placeholder="Ex.: Olá, tudo bem?"></textarea>
+          </div>
+          <div class="max" id="l">
+          </div>
+          <div class="center">
+            <input type="button" id="gera" class="btn btn-outline-success" value="Gerar">
+            <small class="form-text text-muted">Seus dados não são armazeados.</small>
+          </div>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="col-11 col-sm-10 col-md-5 infs">
+          <p class="text-center">Como gerar seu link com o <a href="">GERA LINK</a></p>
+          <ul>
+            <li>Insira o nº do WhatsApp como mostrado na <a href="#in_tel">caixinha de entrada</a>.</li>
+            <li>Opcionalmente, <a href="#mes">escreva uma mensagem padrão</a>.</li>
+            <li>Clique em <a href="#gera">Gerar</a>.</li>
+            <li>Agora basta copiar e compartilhar seu link.</li>
+            <small class="form-text text-muted">Recomendamos testar antes de compartilhar.</small>
+          </ul>
+        </div>
+        <div class="col-11 col-sm-10 col-md-5 infs">
+          <p class="text-center">Como usar a conversa em um clique</p>
+          <ul><a>Com o recurso conversa em um clique, você pode iniciar uma conversa com alguém cujo número de telefone não está salvo na sua lista de contatos. Desde que você saiba o número de telefone dessa pessoa e que ela tenha uma conta do WhatsApp ativa, você poderá criar um link que permite iniciar uma conversa entre vocês. Ao clicar nesse link, a conversa com essa pessoa será criada automaticamente. A conversa em um clique funciona no seu celular e no WhatsApp Web.</a>&nbsp;<a href="">CRIE AGORA</a></ul>
+        </div>
+      </div>
+    </div>
+    <footer>
+      <span>
+        <p>Feito com <i class="far fa-heart" id="love"></i> por <a class="un" href="https://www.instagram.com/santos_natanoficial/">Natan Santos</a>.</p></span>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
