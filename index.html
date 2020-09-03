@@ -1,120 +1,107 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
+<html>
+  <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Parabéns Juh</title>
+    
+    <!-- SEO -->
+    <meta name="keywords" content="WhatsApp, link direto, whats, wpp, shortcut, gera, gerar link, link, perfil, geralink.net, geralink, divulgacao, negocios, conversa, rapida, um, clique, novos, contatos" />
+    <meta name="description" content="O Gera Link é uma ferramenta gratuita para gerar links do WhatsApp, com eles, seus potenciais clientes ou parceiros podem entrar em contato de forma rápida e prática sem que precisem salvar seu número/do seu negócio, aumentando sua margem de sucesso." />
+    <meta name="application-name" content="Gera Link">
+    <meta name="creator" content="Natan Santos">
+    <META name="rating" content="general">
+    <META name="distribution" content="global">
+      
+    <link rel="shortcut icon" type="image/x-icon" href="/src/icons/favicon.ico">
+    <link rel="icon" type="image/x-icon" href="/src/icons/favicon.ico"/>
+    <link rel="apple-touch-icon" sizes="180x180" href="/src/icons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/src/icons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/src/icons/favicon-16x16.png">
+    <link rel="manifest" href="/src/site.webmanifest">
+
+    <title>Gera Link</title>
+
     <link href="https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&display=swap" rel="stylesheet">
 
-    <style>
-        body {
-            background-color: #dee2e6;
-            display: flex;
-            /*justify-content: center;
-            align-items: center;*/
-            flex-direction: column;
-            text-align: center;
-        }
+    <!-- METAS GOOGLE -->
+    <meta name="google-site-verification" content="7iJnjQFh4iacAdNN5eIjy5YY99nTL8defoS-rVP9C7c" />
+    <meta name="robots" content="index, follow">
+    <script data-ad-client="ca-pub-8775856253104564" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.1/css/all.min.css"/>
+    <link href="src/css/style.css" rel="stylesheet" type="text/css" />
+    
+  </head>
+  <body>
+    <header>
+      <a href=""><p>Gera Link</p></a>
+    </header>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-11 col-sm-10 col-lg-6 col-md-7 main">
+          <div class="max">
+            <label class="max" for="in_tel">Número do celular
+              <input type="tel" id="in_tel" class="form-control form-control-line edit" placeholder="Ex.: (00) 0 0000-0000">
+            </label>
+          </div>
+          <div class="max">
+            <label class="max" for="mes">Mensagem (opcional)
+            <textarea class="form-control form-control-line edit" id="mes" rows="2" placeholder="Ex.: Olá, tudo bem?"></textarea>
+          </div>
+          <div class="max" id="l">
+          </div>
+          <div class="center">
+            <input type="button" id="gera" class="btn btn-outline-success" value="Gerar">
+            <small class="form-text text-muted">Seus dados não são armazeados.</small>
+          </div>
+        </div>
+      </div>
 
-        .card {
-            border: 1px solid rgb(253, 126, 20);
-            border-radius: .30rem;
-            background-color: aliceblue;
-            width: 80%;
-            margin: 9%;
-
-            display: inherit;
-            justify-content: inherit;
-            align-items: center;
-            flex-direction: column;
-        }
-
-        p {
-            margin: 8%;
-            width: 78%;
-            font-family: sans-serif;
-        }
-
-        .card #title {
-            font-size: 2.8rem;
-            padding: 0;
-            margin: 3px;
-            width: initial;
-            font-family: 'Amatic SC', cursive;
-        }
-
-        footer {
-            border-top: 1px solid rgb(253, 126, 20);
-            flex-basis: 100%;
-        }
-
-        footer {
-            padding: 1px;
-        }
-
-        footer p {
-            padding: .1em;
-            margin: 0;
-            width: auto;
-        }
-
-    </style>
-</head>
-<body>
-
-    <div class="card">
-        <p id="title">Parabéns Juh</p>
-        <br>
-        <p>
-            Hoje é dia do teu aniversário.
-            E como eu queria te dar um presente especial, maravilhoso,
-            único, que expressasse o quanto tu és importante para mim.
-            Mas não sei o que dar!
-            <br>
-            <br>     
-            Flores?
-            Para vê-las murcharem diante de tua beleza?
-            <br>
-            <br>   
-            Pedras preciosas?
-            Elas seriam totalmente ofuscadas pelo brilho claro do teu
-            olhar e pela luz de teu sorriso.
-            <br>
-            <br>
-            Uma pérola?
-            A perfeição dela não se compara à maciez da pele de teu rosto.
-            <br>
-            <br>
-            Um carro importado?
-            Não precisamos disso para viajar enquanto sonhamos
-            estarmos para sempre juntos.
-            <br>
-            <br>         
-            Um pedaço do mar?
-            Nem a mais linda praia é mais linda do que uma lágrima de
-            felicidade rolando por teu rosto.
-            <br>
-            <br>        
-            Ah, meu amor, quão difícil é te dar um presente.
-            <br>
-            <br>         
-            A culpa é só tua:
-            tua perfeição,
-            teu sorriso,
-            tuas mãos,
-            o amor que me tens,
-            Tudo isso torna tão pequeno
-            qualquer coisa que se possa comprar.
-            <br>
-            <br>        
-            Mas como eu gostaria de poder dizer, de alguma forma,
-            quanto EU TE AMO
-        </p>
+      <div class="row">
+        <div class="col-11 col-sm-10 col-md-5 infs">
+          <p class="text-center">Como gerar seu link com o <a href="">GERA LINK</a></p>
+          <ul>
+            <li>Insira o nº do WhatsApp como mostrado na <a href="#in_tel">caixinha de entrada</a>.</li>
+            <li>Opcionalmente, <a href="#mes">escreva uma mensagem padrão</a>.</li>
+            <li>Clique em <a href="#gera">Gerar</a>.</li>
+            <li>Agora basta copiar e compartilhar seu link.</li>
+            <small class="form-text text-muted">Recomendamos testar antes de compartilhar.</small>
+          </ul>
+        </div>
+        <div class="col-11 col-sm-10 col-md-5 infs">
+          <p class="text-center">Como usar a conversa em um clique</p>
+          <ul><a>Com o recurso conversa em um clique, você pode iniciar uma conversa com alguém cujo número de telefone não está salvo na sua lista de contatos. Desde que você saiba o número de telefone dessa pessoa e que ela tenha uma conta do WhatsApp ativa, você poderá criar um link que permite iniciar uma conversa entre vocês. Ao clicar nesse link, a conversa com essa pessoa será criada automaticamente. A conversa em um clique funciona no seu celular e no WhatsApp Web.</a>&nbsp;<a href="">CRIE AGORA</a></ul>
+        </div>
+      </div>
     </div>
-
     <footer>
-        <p>Com amor ... </p>
-        
+      <span>
+        <p>Feito com <i class="far fa-heart" id="love"></i> por <a class="un" href="https://www.instagram.com/santos_natanoficial/">Natan Santos</a>.</p></span>
     </footer>
-</body>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+      <!-- The core Firebase JS SDK is always required and must be listed first -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-app.js"></script>
+
+    <!-- TODO: Add SDKs for Firebase products that you want to use
+        https://firebase.google.com/docs/web/setup#available-libraries -->
+    <script src="https://www.gstatic.com/firebasejs/7.17.1/firebase-analytics.js"></script>
+
+    <script>
+      // Your web app's Firebase configuration
+      var firebaseConfig = {
+        apiKey: "AIzaSyCvmaqbj00Fz5K_J868CFAcWREPVxxHjLA",
+        authDomain: "gera-link.firebaseapp.com",
+        databaseURL: "https://gera-link.firebaseio.com",
+        projectId: "gera-link",
+        storageBucket: "gera-link.appspot.com",
+        messagingSenderId: "79061084316",
+        appId: "1:79061084316:web:5adead39b2eb2b06f42559",
+        measurementId: "G-5X0XNTV44C"
+      };
+      // Initialize Firebase
+      firebase.initializeApp(firebaseConfig);
+      firebase.analytics();
+    </script>
+    <script src="src/js/script.js"></script>
+  </body>
 </html>
